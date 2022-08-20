@@ -4,7 +4,7 @@ import alex.klimchuk.spring5.webapp.entities.AuthorEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-/*
+/**
  * Copyright Alex Klimchuk (c) 2022.
  */
 

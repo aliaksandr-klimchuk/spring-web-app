@@ -9,7 +9,7 @@ import alex.klimchuk.spring5.webapp.repositories.PublisherRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-/*
+/**
  * Copyright Alex Klimchuk (c) 2022.
  */
 
