@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 /**
  * Copyright Alex Klimchuk (c) 2022.
  */
-
 @Repository
 public interface BookRepository extends CrudRepository<BookEntity, Long> {
 

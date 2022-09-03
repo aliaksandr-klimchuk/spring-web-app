@@ -12,7 +12,6 @@ import org.springframework.stereotype.Component;
 /**
  * Copyright Alex Klimchuk (c) 2022.
  */
-
 @Component
 public class BootStrapData implements CommandLineRunner {
 
