@@ -7,10 +7,11 @@ import org.springframework.boot.test.context.SpringBootTest;
  * Copyright Alex Klimchuk (c) 2022.
  */
 @SpringBootTest
-class ApplicationTests {
+public class ApplicationTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
+
     }
 
 }
