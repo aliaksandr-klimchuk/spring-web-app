@@ -6,7 +6,7 @@ Simple Web Application written in Java and Spring to understand MVC pattern and 
 ### How to start:
 1. Install and run any IDE for working with Java.
 2. Run the application and check end-points work using Postman and link below:
-- http://localhost:8080/
+   - http://localhost:8080/
 
 
 
