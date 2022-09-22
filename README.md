@@ -13,8 +13,8 @@ Simple Web Application written in Java and Spring to understand MVC pattern and 
 ### Technologies:
 - Programming language: Java 18;
 - Frameworks:
-    - Spring (Boot, Core, Data, Web, Test);
-    - Hibernate.
+  - Spring (Boot, Core, Data, Web, Test);
+  - Hibernate.
 - IDE: IntelliJ IDEA;
 - Database: H2;
 - Tools: Lombok, Postman, Gradle, Git, HTTPs, XML, YAML, JSON;
