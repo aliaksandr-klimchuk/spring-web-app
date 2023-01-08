@@ -13,9 +13,12 @@ Simple Web Application written in Java and Spring to understand MVC pattern and 
 ### Technologies:
 - Programming language: Java 18;
 - Frameworks:
-  - Spring (Boot, Core, Data, Web, Test);
+  - Spring (Boot, Core, Data, WebMVC, Test);
   - Hibernate.
 - IDE: IntelliJ IDEA;
 - Database: H2;
 - Tools: Lombok, Postman, Gradle, Git, HTTPs, XML, YAML, JSON;
-- Others: GitHub, HTML, CSS, ThymeLeaf.
+- Others: GitHub, CircleCI, CodeCov, HTML, CSS, ThymeLeaf.
+
+[![CircleCI](https://circleci.com/gh/Crazy-pro/spring5-web-app.svg?style=svg)](https://app.circleci.com/gh/Crazy-pro/spring5-web-app)
+[![CodeCov](https://codecov.io/gh/Crazy-pro/spring5-web-app/branch/master/graph/badge.svg)](https://codecov.io/gh/Crazy-pro/spring5-web-app)
