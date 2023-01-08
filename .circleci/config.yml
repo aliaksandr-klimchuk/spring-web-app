@@ -10,11 +10,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies
-          command: mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-      - run:
-          name: Run tests and collect coverage
-          command: mvn -B test
+          name: Install dependencies, run tests, and collect coverage
+          command: gradle build
       - codecov/upload:
           file: './codecov.yml'
 
