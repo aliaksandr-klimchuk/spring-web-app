@@ -6,12 +6,14 @@ import alex.klimchuk.spring5.webapp.entities.PublisherEntity;
 import alex.klimchuk.spring5.webapp.repositories.AuthorRepository;
 import alex.klimchuk.spring5.webapp.repositories.BookRepository;
 import alex.klimchuk.spring5.webapp.repositories.PublisherRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 /**
  * Copyright Alex Klimchuk (c) 23.12.2019.
  */
+@Slf4j
 @Component
 public class BootStrapData implements CommandLineRunner {
 
@@ -27,7 +29,7 @@ public class BootStrapData implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        System.out.println("Started in Bootstrap");
+        log.info("Started in Bootstrap");
 
         PublisherEntity publisher = new PublisherEntity();
         publisher.setName("SFG Publishing");
@@ -36,7 +38,7 @@ public class BootStrapData implements CommandLineRunner {
 
         publisherRepository.save(publisher);
 
-        System.out.println("Publisher Count: " + publisherRepository.count());
+        log.info("Publisher Count: " + publisherRepository.count());
 
         AuthorEntity eric = new AuthorEntity("Eric", "Evans");
         BookEntity ddd = new BookEntity("Domain Driven Design", "123123");
@@ -62,8 +64,8 @@ public class BootStrapData implements CommandLineRunner {
         bookRepository.save(noEJB);
         publisherRepository.save(publisher);
 
-        System.out.println("Number of Books: " + bookRepository.count());
-        System.out.println("Publisher Number of Books: " + publisher.getBooks().size());
+        log.info("Number of Books: " + bookRepository.count());
+        log.info("Publisher Number of Books: " + publisher.getBooks().size());
     }
 
 }
