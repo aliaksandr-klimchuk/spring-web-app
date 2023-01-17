@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies, run tests, and collect coverage
-          command: ./gradlew build test
+          command: gradle build test
       - codecov/upload
       - sonarcloud/scan
 
