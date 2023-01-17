@@ -2,6 +2,7 @@ plugins {
     id 'org.springframework.boot' version '3.0.0-M4'
     id 'io.spring.dependency-management' version '1.0.12.RELEASE'
     id 'java'
+    id 'jacoco'
 }
 
 group = 'alex.klimchuk'
@@ -31,4 +32,9 @@ dependencies {
 
 tasks.named('test') {
     useJUnitPlatform()
+}
+
+jacoco {
+    toolVersion = "0.8.8"
+    reportsDirectory = layout.buildDirectory.dir('customJacocoReportDir')
 }
