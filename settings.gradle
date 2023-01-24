@@ -4,4 +4,4 @@ pluginManagement {
 		gradlePluginPortal()
 	}
 }
-rootProject.name = 'spring5-web-app'
+rootProject.name = 'spring-web-app'

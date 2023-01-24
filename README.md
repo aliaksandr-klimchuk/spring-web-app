@@ -1,5 +1,5 @@
-### Spring 5 Web Application
-Simple Web Application written in Java and Spring to understand MVC pattern and Spring Framework concept.
+### Spring Web Application
+Simplest Web Application such as Hello World written in Java and Spring to understand Spring Framework concept.
 
 
 
