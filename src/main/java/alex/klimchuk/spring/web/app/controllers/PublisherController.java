@@ -1,4 +1,4 @@
-package alex.klimchuk.spring5.webapp.controllers;
+package alex.klimchuk.spring.web.app.controllers;
 
 import org.springframework.stereotype.Controller;
 

@@ -1,4 +1,4 @@
-package alex.klimchuk.spring5.webapp.entities;
+package alex.klimchuk.spring.web.app.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

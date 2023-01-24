@@ -1,11 +1,11 @@
-package alex.klimchuk.spring5.webapp.bootstrap;
+package alex.klimchuk.spring.web.app.bootstrap;
 
-import alex.klimchuk.spring5.webapp.entities.AuthorEntity;
-import alex.klimchuk.spring5.webapp.entities.BookEntity;
-import alex.klimchuk.spring5.webapp.entities.PublisherEntity;
-import alex.klimchuk.spring5.webapp.repositories.AuthorRepository;
-import alex.klimchuk.spring5.webapp.repositories.BookRepository;
-import alex.klimchuk.spring5.webapp.repositories.PublisherRepository;
+import alex.klimchuk.spring.web.app.entities.AuthorEntity;
+import alex.klimchuk.spring.web.app.entities.BookEntity;
+import alex.klimchuk.spring.web.app.entities.PublisherEntity;
+import alex.klimchuk.spring.web.app.repositories.AuthorRepository;
+import alex.klimchuk.spring.web.app.repositories.BookRepository;
+import alex.klimchuk.spring.web.app.repositories.PublisherRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

@@ -1,6 +1,6 @@
-package alex.klimchuk.spring5.webapp.controllers;
+package alex.klimchuk.spring.web.app.controllers;
 
-import alex.klimchuk.spring5.webapp.repositories.AuthorRepository;
+import alex.klimchuk.spring.web.app.repositories.AuthorRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

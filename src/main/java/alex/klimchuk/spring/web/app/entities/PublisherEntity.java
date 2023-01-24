@@ -1,4 +1,4 @@
-package alex.klimchuk.spring5.webapp.entities;
+package alex.klimchuk.spring.web.app.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -16,19 +16,29 @@ import java.util.Set;
 @AllArgsConstructor
 @RequiredArgsConstructor
 @EqualsAndHashCode(exclude = "books")
-public class AuthorEntity {
+public class PublisherEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @NonNull
-    private String firstName;
+    private String name;
 
     @NonNull
-    private String lastName;
+    private String addressLine1;
 
-    @ManyToMany(mappedBy = "authors")
+    @NonNull
+    private String city;
+
+    @NonNull
+    private String state;
+
+    @NonNull
+    private String zip;
+
+    @OneToMany
+    @JoinColumn(name = "publisher_id")
     private Set<BookEntity> books = new HashSet<>();
 
 }

@@ -1,6 +1,6 @@
-package alex.klimchuk.spring5.webapp.repositories;
+package alex.klimchuk.spring.web.app.repositories;
 
-import alex.klimchuk.spring5.webapp.entities.PublisherEntity;
+import alex.klimchuk.spring.web.app.entities.PublisherEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
