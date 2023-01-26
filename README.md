@@ -16,7 +16,7 @@ Simplest Web Application such as Hello World written in Java and Spring to under
   - Spring (Boot, Core, Data, WebMVC, Test);
   - Hibernate.
 - IDE: IntelliJ IDEA;
-- Database: H2;
+- Database: H2; 
 - Tools: Lombok, Postman, Gradle, Git, HTTPs, XML, YAML, JSON;
 - Others: GitHub, CircleCI, CodeCov, SonarLint, SonarCloud, HTML, CSS, ThymeLeaf.
 
