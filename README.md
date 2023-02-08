@@ -1,5 +1,5 @@
 ### Spring Web Application
-Simplest Web Application such as Hello World written in Java and Spring to understand Spring Framework concept.
+Simplest Web Application such as Hello World written in Java and Spring to understand Spring Framework concept. 
 
 
 
